@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+:root {
+  --default-border-radius-size: 12px;
+  --primary-color: darkslateblue;
+  --secondary-color: #fffbe6;
+  --border-default: 2px solid darkslateblue;
+  --min-card-heigth: 50px;
+}
+* {
+  font-family: "Merriweather";
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  color: var(--primary-color);
+  font-size: 46px;
+  display: inline-block;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  width: 100%;
+  border: var(--border-default);
+  border-radius: var(--default-border-radius-size);
+  min-height: var(--min-card-heigth);
+  margin: 10px 0px;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--default-border-radius-size);
+  align-items: center;
+  overflow: hidden;
+  min-height: var(--min-card-heigth);
+  padding: 0px 10px;
+}
+.checkbox-desc-container {
+  display: flex;
+  flex-direction: row;
+}
+.input-field {
+  height: auto;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  width: 90%;
+  margin: 0px 10px 0px 0px;
+  border-radius: var(--default-border-radius-size);
+}
+.button-design {
+  width: 10%;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--default-border-radius-size);
+  cursor: pointer;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 300px;
+}
+.desc-style {
+  margin-left: 10px;
+}
+.trash-icon {
+  content: url(./icons/trash.svg);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.trash-icon:hover {
+  transform: scale(1.25);
+}
+.add-icon {
+  content: url(./icons/plus.svg);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: var(--border-default);
+  border-radius: 50%;
+}
+.add-icon:hover {
+  transform: scale(1.25);
+}

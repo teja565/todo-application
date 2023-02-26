@@ -1,3 +1,13 @@
+import TodoHeader from "./TodoHeader";
+import InputComponent from "./InputComponent";
+import TodoItems from "./TodoItems";
+import MainContainer from "./MainContainer";
 export default function TodoApp() {
-  return <>I made some changes here.</>;
+  return (
+    <MainContainer>
+      <TodoHeader />
+      <InputComponent />
+      <TodoItems />
+    </MainContainer>
+  );
 }
