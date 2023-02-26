@@ -78,6 +78,10 @@ body {
 .desc-style {
   margin-left: 10px;
 }
+.desc-style-completed {
+  margin-left: 10px;
+  text-decoration: line-through;
+}
 .trash-icon {
   content: url(./icons/trash.svg);
   width: 16px;
