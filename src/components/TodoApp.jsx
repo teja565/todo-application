@@ -3,7 +3,6 @@ import InputComponent from "./InputComponent";
 import TodoItems from "./TodoItems";
 import MainContainer from "./MainContainer";
 import { useState } from "react";
-import { useEffect } from "react";
 export default function TodoApp() {
   const [todoList, setTodoList] = useState([]);
 
