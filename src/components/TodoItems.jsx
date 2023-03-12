@@ -4,7 +4,6 @@ export default function TodoItems({ todoList, setTodoList }) {
     <>
       {todoList.map((item) => (
         <ItemComponent
-          key={item.id}
           id={item.id}
           description={item.description}
           isCompleted={item.isCompleted}
