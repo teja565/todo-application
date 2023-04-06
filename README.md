@@ -1,2 +1,2 @@
 site is live on :
-https://charming-hotteok-a90727.netlify.app/
+https://todo-app-teja565.netlify.app/
